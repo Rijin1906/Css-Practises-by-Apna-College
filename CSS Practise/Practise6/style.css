@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;;
+background-color: black;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+ul li{
+    /* display: inline; */
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color:rgba(0,0,200,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#inner{
+    height: 100px;
+  width: 100px;
+    background-color:rgba(61, 255, 61,0.75);
+ 
+
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.loader {
+  height: 100px;
+  width: 100px;
+  border: solid 10px #0c2d57;
+  border-top: solid 10px #fc6736;
+  border-radius: 50%;
+  animation: spin 2s ease-in 0s infinite normal;
+  
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

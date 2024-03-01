@@ -1,0 +1,23 @@
+#one{
+    background-color: green;
+    border: 2px solid black;
+    height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+height: 60px;
+
+}
+button{
+    color: white;
+    background-color: rgb(210, 168, 53);
+}
+a{
+    color: rgb(210, 168, 53);
+}

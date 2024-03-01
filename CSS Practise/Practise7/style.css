@@ -1,0 +1,29 @@
+*{
+    height: 0;
+    width: 0;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255,255,0,0.5);
+}
+@media(max-width:300px){
+    div{
+        background-color:green;
+    }
+}
+@media(min-width:300px)and(max-width:400px){
+    div{
+        background-color:pink;
+    }
+}
+@media(width>400)and(width<600){
+div{
+    background-color: red;
+}
+}
+@media(min-width:600px){
+    div{
+        background-color:blue;
+    }
+}

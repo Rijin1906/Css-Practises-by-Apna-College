@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("backgroundImage.jpg");
+    background-size: cover;
+    color: white;
+    position:fixed;
+    right: 0;
+    top: 50px;
+}
